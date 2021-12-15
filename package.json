@@ -4,8 +4,13 @@
   "description": "Simple realisation of vigenera crypto algorythm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "tsc --project tsconfig.json --watch",
+    "build": "tsc --project tsconfig.json"
   },
   "author": "Evgeniy Saenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
 }
