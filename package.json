@@ -1,0 +1,11 @@
+{
+  "name": "vigenera",
+  "version": "1.0.0",
+  "description": "Simple realisation of vigenera crypto algorythm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evgeniy Saenko",
+  "license": "ISC"
+}
